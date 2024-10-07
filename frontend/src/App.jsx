@@ -7,6 +7,7 @@ import Holidays from './components/holidays';
 import Time from './components/time';
 import Dashboard from './components/dashboard';
 import Login from './pages/login';
+import HolidayList from './pages/RHholidaylist';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="profile" element={<Profile />} />
           <Route path="holiday" element={<Holidays />} />
           <Route path="time" element={<Time />} /> 
+          <Route path="holidayrh" element={<HolidayList />} />
         </Route>
 
         <Route path="login" element={<Login />} />

@@ -20,7 +20,7 @@ export default function Time() {
             />
           </div>
 
-          {/* Lunch Break */}
+          
           <div className="mb-6">
             <label className="block text-gray-700 font-medium mb-2" htmlFor="lunchBreak">
               Lunch Break
@@ -42,7 +42,7 @@ export default function Time() {
             </div>
           </div>
 
-          {/* Exit Time */}
+         
           <div className="mb-6">
             <label className="block text-gray-700 font-medium mb-2" htmlFor="exitTime">
               Exit Time
@@ -55,7 +55,7 @@ export default function Time() {
             />
           </div>
 
-          {/* Submit Button */}
+          
           <div className="flex justify-end">
             <button
               type="submit"
